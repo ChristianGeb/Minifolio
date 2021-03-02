@@ -1,0 +1,98 @@
+:root {
+  --animate-delay: 0.5s;
+}
+
+body {
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23b7b7b7' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-grad-w {
+  background-image: linear-gradient(to bottom right, #02D2B4 0%, #02a9d2 1%, #02D2B4 100%)
+}
+
+.btn-grad-w {
+  padding: 5px 15px;
+  font-size: 1rem;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 3px;
+  border: none;
+}
+
+.btn-grad-w:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-grad-c {
+  background-image: linear-gradient(to bottom right, #303646 0%, #726DFF 1%, #303646 100%)
+}
+
+.btn-grad-c {
+  padding: 5px 15px;
+  font-size: 1rem;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 3px;
+  border: none;
+}
+
+.btn-grad-c:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-grad-cat {
+  background-image: linear-gradient(to bottom right, #1e6f9e 0%, #9ca9b4 1%, #1e6f9e 100%)
+}
+
+.btn-grad-cat {
+  padding: 5px 15px;
+  font-size: 1rem;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 3px;
+  border: none;
+}
+
+.btn-grad-cat:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
