@@ -7,14 +7,6 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23b7b7b7' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
 
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-}
-
 a {
   text-decoration: none;
   color: white;
@@ -26,7 +18,7 @@ a:hover {
 }
 
 .btn-grad-w {
-  background-image: linear-gradient(to bottom right, #02D2B4 0%, #02a9d2 1%, #02D2B4 100%)
+  background-image: linear-gradient(to bottom right, #02a9d2 0%, #02D2B4 1%, #02a9d2 100%)
 }
 
 .btn-grad-w {
@@ -70,7 +62,7 @@ a:hover {
 }
 
 .btn-grad-cat {
-  background-image: linear-gradient(to bottom right, #1e6f9e 0%, #9ca9b4 1%, #1e6f9e 100%)
+  background-image: linear-gradient(to bottom right, #88334f 0%, #b75265 1%, #88334f 100%)
 }
 
 .btn-grad-cat {
