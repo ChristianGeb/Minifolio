@@ -3,8 +3,13 @@
 }
 
 body {
+  font-family: 'Open Sans', sans-serif;
   background-color: #ffffff;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23b7b7b7' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -81,6 +86,25 @@ a:hover {
   background-position: right center;
   color: #fff;
   text-decoration: none;
+}
+
+p {
+  color: rgb(56, 56, 56);
+}
+
+.highlight-weather {
+  color: #0096bb;
+  font-weight: 600;
+}
+
+.highlight-chat {
+  color: #4643a3;
+  font-weight: 600;
+}
+
+.highlight-cat {
+  color: #7a2c46;
+  font-weight: 600;
 }
 
 @media (min-width: 768px) {
