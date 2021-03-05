@@ -4,8 +4,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #ffffff;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23b7b7b7' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  background-color: #fdfdfd;
 }
 
 .title {
@@ -107,8 +106,17 @@ p {
   font-weight: 600;
 }
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
+.card {
+  margin-bottom: 15px;
+}
+
+.last-card {
+  margin-bottom: 100px;
+}
+
+
+@media (max-width: 768px) {
+  p {
+    font-size: 0.9rem;
   }
 }
